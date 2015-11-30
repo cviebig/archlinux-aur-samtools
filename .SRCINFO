@@ -1,8 +1,8 @@
 pkgbase = samtools
 	pkgdesc = tools for manipulating next-generation sequencing data
-	pkgver = 1.2
-	pkgrel = 2
-	url = http://www.htslib.org/
+	pkgver = 0.1.19
+	pkgrel = 1
+	url = http://sourceforge.net/projects/samtools
 	arch = i686
 	arch = x86_64
 	license = custom
@@ -11,10 +11,7 @@ pkgbase = samtools
 	optdepends = luajit: needed for r2plot.lua vcfutils.lua
 	optdepends = python2: needed for varfilter.py
 	options = staticlibs
-	source = samtools-1.2.tar.gz::https://github.com/samtools/samtools/archive/1.2.tar.gz
-	source = makefile-system-htslib.patch
-	md5sums = 2748356ef392c0694ca1142de37cf2aa
-	md5sums = 00f3b0b730f37cd7c8ff12376a9a0c6a
-
-pkgname = samtools
+	source = samtools-0.1.19.tar.gz
+	md5sums = ff8b46e6096cfb452003b1ec5091d86a
+	pkgname = samtools
 
