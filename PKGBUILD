@@ -48,8 +48,8 @@ package() {
     install -Dm755 $file $pkgdir/usr/bin/$(basename $file)
   done
 
-  install -d $pkgdir/usr/include/bam
-  install -Dm644 *.h $pkgdir/usr/include/bam
+  install -d $pkgdir/usr/include/samtools
+  install -Dm644 *.h $pkgdir/usr/include/samtools
 
   install -Dm644 libbam.a $pkgdir/usr/lib/libbam.a
 
